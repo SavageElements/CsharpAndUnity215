@@ -6,24 +6,24 @@ namespace CsharpAndUnity215
 {
     public class  MathMethods
     {
-        public static double DoubleUP (double X)
+        public static int DoubleUP (int X)
         {
-            double M1 = X;
-            double dubUP = M1 * 2;
+            int M1 = X;
+            int dubUP = M1 * 2;
             return dubUP;
         }
 
-        public static double PITime(double X)
+        public static int PITime(int X)
         {
-            double M2 = X;
-            double piTime = M2 * 3.14;
+            int M2 = X;
+            int piTime = M2 * 3;
             return piTime;
         }
 
-        public static double AddSeven(double X)
+        public static int AddSeven(int X)
         {
-            double M3 = X;
-            double plusSEV = M3 + 7;
+            int M3 = X;
+            int plusSEV = M3 + 7;
             return plusSEV;
         }
     }
